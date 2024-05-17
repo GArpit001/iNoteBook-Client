@@ -12,7 +12,7 @@ const NoteState = (props) => {
 
 
 
-  const host = "https://inotebook-backend-8r9c.onrender.com" ||  "http://localhost:2110"
+  const host = "https://inotebook-backend-8r9c.onrender.com" 
 
   const [notes, setNotes] = useState([]);
   const [users, setUser] = useState({ email: "", fname: "" })
