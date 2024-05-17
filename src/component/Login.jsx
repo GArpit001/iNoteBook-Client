@@ -49,7 +49,7 @@ const Login = (props) => {
 
             props.showAlert(`${userName[0].toUpperCase()} Welcome back your account`)
             localStorage.setItem("token", json.authToken)
-            history("/login")
+            history("/")
         }
         else {
             props.showAlert("INVALID CREDENTIALS")

@@ -38,7 +38,7 @@ const SignUp = (props) => {
         // console.log(json)
         if (json.success) {
             props.showAlert(`${fname} You have successfully create your account`)
-            history("/")
+            history("/login")
         }
         else {
             props.showAlert("Please fill the detail again")
