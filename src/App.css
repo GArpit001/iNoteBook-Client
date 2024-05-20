@@ -40,3 +40,42 @@
 .card {
   padding: 2em;
 }
+
+.fullPage {
+  display: flex;
+}
+
+.about {
+  margin: 4rem;
+  padding: 3rem;
+}
+
+.logHead {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+}
+
+@media (max-width: 600px) {
+  .fullPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .logHead {
+    font-size: 1.15rem ;
+    line-height: 1.65rem;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { myContext } from '../context/context'
 import SIGN_UP from "../assets/img/sign.png"
 
@@ -25,8 +25,8 @@ const SignUp = (props) => {
         e.preventDefault()
         console.log("Account Create Successfully")
 
-        // const responce = await fetch("http://localhost:2110/api/auth/createuser", {
-            const responce = await fetch("https://inotebook-backend-8r9c.onrender.com/api/auth/createuser", {
+        const responce = await fetch("http://localhost:2110/api/auth/createuser", {
+            // const responce = await fetch("https://inotebook-backend-8r9c.onrender.com/api/auth/createuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -69,7 +69,7 @@ const SignUp = (props) => {
 
                 <form className="max-w-md  bg-gray-100 border border-slate-300 p-[2rem] text-black rounded-lg" title='SIGNUP FORM' onSubmit={createAccount} >
 
-                    <h1 className='text-xl font-medium text-white-900 light:text-black mb-5 text-center underline'>
+                    <h1 className='logHead font-medium text-white-900 light:text-black mb-5 text-center underline'>
                         Create a Account on iNoteBook
                     </h1>
                     <div className="grid md:grid-cols-2 md:gap-6">
@@ -101,8 +101,14 @@ const SignUp = (props) => {
                     </div>
 
                     <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Create Account</button>
-
                 </form>
+
+                <div className=' text-center max-w-md  bg-gray-100 border border-slate-300 p-[0.5rem] text-black rounded-lg mt-4'>
+                    Already have an account? <Link to="/login" className='text-blue-700 font-bold'> Sign in → </Link>
+                </div>
+
+
+
 
             </div>
         </div >

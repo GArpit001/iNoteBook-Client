@@ -4,11 +4,11 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <>
-      <div className="text-justify m-16 bg-gray-200 p-12">
+      <div className="about text-justify bg-gray-200 ">
         <h1 className="text-4xl text-center font-bold mb-5">
           iNotebook Cloud Platform Terms of Service
         </h1>
-        <h4 className="text-5xl text-center font-bold mb-10">
+        <h4 className="text-4xl text-center font-bold mb-10">
           Your notes secure on iNotebook cloud so don't worry and enjoy this app.
         </h4>
 
@@ -42,7 +42,7 @@ const About = () => {
             track-metadata-eventdetail="cloud.iNotebook.com/terms/iNotebook-entity"
             track-metadata-module="text blocks"
           >
-            https://cloud.iNotebook.com/terms/iNotebook-entity
+            {/* https://cloud.iNotebook.com/terms/iNotebook-entity */}
           </a>
           .
         </p>
@@ -110,7 +110,7 @@ const About = () => {
             track-type="content block"
             track-metadata-eventdetail="cloud.iNotebook.com/terms"
           >
-            https://cloud.iNotebook.com/terms/
+            {/* https://cloud.iNotebook.com/terms/ */}
           </a>
           .
         </p>
