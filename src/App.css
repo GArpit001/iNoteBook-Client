@@ -10,6 +10,7 @@
   background-color: lightblue;
 }
 
+
 .mainProfile {
   display: none;
 }
@@ -77,5 +78,8 @@
   .logHead {
     font-size: 1.15rem;
     line-height: 1.65rem;
+  }
+  .no{
+    justify-content: center;
   }
 }

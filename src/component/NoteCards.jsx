@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from 'react'
 import { myContext } from '../context/context'
 import { useNavigate } from 'react-router-dom'
+import "../App.css"
 
 const NoteCards = (props) => {
 
@@ -65,7 +66,7 @@ const NoteCards = (props) => {
 
 
     return (
-        <div className="no flex gap-8 mx-auto  flex-wrap justify-center">
+        <div className="no flex gap-8 mx-auto  flex-wrap ">
 
 
 
