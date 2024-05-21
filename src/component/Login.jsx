@@ -28,7 +28,7 @@ const Login = (props) => {
 
 
         // const responce = await fetch("http://localhost:2110/api/auth/login", {
-            const responce = await fetch("https://inotebook-backend-8r9c.onrender.com/api/auth/login", {
+        const responce = await fetch("https://inotebook-backend-8r9c.onrender.com/api/auth/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

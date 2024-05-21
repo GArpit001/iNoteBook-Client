@@ -65,7 +65,7 @@ const NoteCards = (props) => {
 
 
     return (
-        <div className="no flex gap-8 mx-auto  flex-wrap">
+        <div className="no flex gap-8 mx-auto  flex-wrap justify-center">
 
 
 
