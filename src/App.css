@@ -56,14 +56,17 @@
   line-height: 1.75rem /* 28px */;
 }
 
+
+
 @media (max-width: 600px) {
   .fullPage {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 1.75rem/* 28px */;
   }
 
-  .loginForm {
+  .loginForm, .signuoForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,4 +85,15 @@
   .no{
     justify-content: center;
   }
+  .navLogo{
+    display: none;
+  }
+  .navLi{
+    width: 100%;
+  }
+  .navButton{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+ }
 }

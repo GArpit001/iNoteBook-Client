@@ -69,7 +69,7 @@ const Login = (props) => {
     return (
 
         // <div className='flex w-full px-[3rem] py-[1.8rem] bg-slate-100 '>
-        <div className=' fullPage'>
+        <div className=' fullPage '>
 
             {/* <div className="image w-1/2 bg-[url('./assets/img/login.png')] bg-no-repeat  bg-top "> */}
             <div className="image max-w-1/2  ">

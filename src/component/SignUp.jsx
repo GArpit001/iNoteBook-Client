@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { myContext } from '../context/context'
 import SIGN_UP from "../assets/img/sign.png"
+import "../App.css"
 
 const SignUp = (props) => {
 
@@ -25,8 +26,8 @@ const SignUp = (props) => {
         e.preventDefault()
         console.log("Account Create Successfully")
 
-        const responce = await fetch("http://localhost:2110/api/auth/createuser", {
-            // const responce = await fetch("https://inotebook-backend-8r9c.onrender.com/api/auth/createuser", {
+        // const responce = await fetch("http://localhost:2110/api/auth/createuser", {
+            const responce = await fetch("https://inotebook-backend-8r9c.onrender.com/api/auth/createuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -55,11 +56,11 @@ const SignUp = (props) => {
 
     return (
 
-        <div className='flex px-[15px]'>
+        <div className=' fullPage '>
 
             {/* <div className="image w-1/2 bg-[url('./assets/img/login.png')] bg-no-repeat  bg-top "> */}
-            <div className="image w-1/2  ">
-                <img src={SIGN_UP} title='LOGO' className='pl-[50px] w-[600px] h-[480px] ' alt="" />
+            <div className="image max-w-full flex justify-center ">
+                <img src={SIGN_UP} title='LOGO' className=' w-full h-[480px] ' alt="" />
 
             </div>
 

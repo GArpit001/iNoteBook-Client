@@ -131,7 +131,7 @@ const NoteCards = (props) => {
                     return (
 
 
-                        <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex min-w-[350px]">
+                        <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex max-w-[350px]">
                             <div className="note">
 
 
