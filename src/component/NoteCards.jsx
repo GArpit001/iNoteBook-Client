@@ -23,7 +23,7 @@ const NoteCards = (props) => {
             getNotes()
             // getUserDetail()
         } else {
-            history("/home")
+            history("/login")
         }
     }, [])
 

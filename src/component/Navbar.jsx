@@ -173,7 +173,7 @@ const Navbar = () => {
 
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
-                                <Link to="/home" className={`block py-2 px-3 text-white ${location.pathname === "/home" ? "text-blue-700" : ""} rounded md:bg-transparent  md:p-0 `} aria-current="page">Home</Link>
+                                <Link to="/" className={`block py-2 px-3 text-white ${location.pathname === "/" ? "text-blue-700" : ""} rounded md:bg-transparent  md:p-0 `} aria-current="page">Home</Link>
                             </li>
                             <li>
                                 <Link to="/about" className={`block py-2 px-3 text-white ${location.pathname === "/about" ? "text-blue-700" : ""} rounded md:bg-transparent  md:p-0 `}>About</Link>
@@ -219,16 +219,16 @@ const Navbar = () => {
                                                 <div className="grid gap-4 mb-4 grid-cols-2">
                                                     <div className="col-span-2">
                                                         <label htmlFor="editTitle" className="block mb-2 text-sm font-medium text-gray-900 dark:text-black">ACCOUNT HOLDER'S NAME</label>
-                                                        <input type="text" name="editTitle"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type product name" value={users.fname} onChange={onChange} autoComplete="off" />
+                                                        <input type="text" name="editTitle" id="editTitle" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type product name" value={users.fname} onChange={onChange} autoComplete="off" />
                                                     </div>
                                                     <div className="col-span-2 ">
                                                         <label htmlFor="editdescription" className="block mb-2 text-sm font-medium text-gray-900 dark:text-black">ACCOUNT HOLDER'S EMAIL</label>
-                                                        <input type="text" name="editdescription"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type product name" value={users.email} onChange={onChange} autoComplete="off" />
+                                                        <input type="text" name="editdescription" id="editdescription" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type product name" value={users.email} onChange={onChange} autoComplete="off" />
                                                     </div>
 
                                                     <div className="col-span-2">
                                                         <label htmlFor="editTag" className="block mb-2 text-sm font-medium text-gray-900 dark:text-black">ACCOUNT HOLDER'S  PASSWORD</label>
-                                                        <input type="password" name="editTag"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type product name" value={users.password} onChange={onChange} />
+                                                        <input type="password" name="editTag" id="editTag" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type product name" value={users.password} onChange={onChange} />
                                                     </div>
                                                 </div>
 
@@ -243,10 +243,10 @@ const Navbar = () => {
                                     </div>
 
 
-                                    <Link className='bg-blue-500 text-white mx-2 px-[12px] py-[6px] rounded-lg' role='button' to="/" onClick={logOut}>LOGOUT </Link>
+                                    <Link className='bg-blue-500 text-white mx-2 px-[12px] py-[6px] rounded-lg' role='button' to="/login" onClick={logOut}>LOGOUT </Link>
                                 </div> :
                                 <div className="relative hidden md:block">
-                                    <Link className='bg-blue-500 text-white mx-2 px-[12px] py-[7px] rounded-lg' role='button' to="/">Login</Link>
+                                    <Link className='bg-blue-500 text-white mx-2 px-[12px] py-[7px] rounded-lg' role='button' to="/login">Login</Link>
                                     <Link className='bg-blue-500 text-white mx-2 px-[12px] py-[7px] rounded-lg' role='button' to="/signup">Sign Up</Link>
                                 </div>
 

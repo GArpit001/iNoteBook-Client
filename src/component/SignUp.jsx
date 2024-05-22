@@ -38,7 +38,7 @@ const SignUp = (props) => {
         // console.log(json)
         if (json.success) {
             props.showAlert(`${fname} You have successfully create your account`)
-            history("/")
+            history("/login")
         }
         else {
             props.showAlert("Please fill the detail again")
@@ -104,7 +104,7 @@ const SignUp = (props) => {
                 </form>
 
                 <div className=' text-center max-w-md  bg-gray-100 border border-slate-300 p-[0.5rem] text-black rounded-lg mt-4'>
-                    Already have an account? <Link to="/" className='text-blue-700 font-bold'> Sign in → </Link>
+                    Already have an account? <Link to="/login" className='text-blue-700 font-bold'> Sign in → </Link>
                 </div>
 
 
