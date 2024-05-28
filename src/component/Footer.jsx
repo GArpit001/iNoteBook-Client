@@ -1,4 +1,6 @@
 import React from 'react'
+import LOGO from "../assets/img/iNoteBook LOGO.jpg"
+
 
 const Footer = () => {
   return (
@@ -7,24 +9,12 @@ const Footer = () => {
 <footer className="bg-white dark:bg-gray-900">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
-                  <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3" alt="FlowBite Logo" />
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">iNoteBook</span>
-              </a>
+          <div className="mb-6 md:mb-0 flex items-center">
+                  <img src={LOGO} className="h-16 me-3 rounded-full" alt="FlowBite Logo" />
+                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cloud App</span>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-              {/* <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                      <li className="mb-4">
-                          <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
-                      </li>
-                      <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
-                      </li>
-                  </ul>
-              </div> */}
+             
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -55,8 +45,14 @@ const Footer = () => {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://instagram.com/" target='_blank' className="hover:underline">iNoteBook</a>. All Rights Reserved.
-          </span>
+          <div className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://instagram.com/" target='_blank' className="hover:underline">iNoteBook</a>. All Rights Reserved.
+          </div>
+
+          <div className="text-sm text-white sm:text-center light:text-gray-400">
+            Powered By Arpit Verma
+          </div>
+
+          
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                   <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

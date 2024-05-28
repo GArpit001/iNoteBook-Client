@@ -125,33 +125,73 @@ const NoteCards = (props) => {
                 notes.length === 0 && (<div>NO Notes here </div>)
             }
 
+            <div className="cards">
+                {/* <div className="flip-card"> */}
 
-            {
-                notes.map((val) => {
-                    return (
+                {
+                    notes.map((val) => {
+                        return (
 
 
-                        <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex max-w-[350px]">
-                            <div className="note">
+                            // <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex max-w-[350px]">
+                            //     <div className="note">
 
+
+                            //         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{val.title}</h5>
+                            //         <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">{val.description}</p>
+                            //         <a href="#" className="inline-flex font-medium items-center text-blue-600 hover:underline">
+                            //             {val.tag}
+
+                            //         </a>
+                            //     </div>
+
+                            //     <div className="icon flex gap-5 self-end">
+                            //         <i className="text-yellow-600 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
+                            //         <i className="text-red-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
+                            //     </div>
+                            // </div>
+
+
+                            // CARD 1 //
+
+                            <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700 flex max-w-[350px] card red">
+                                <div className="note">
 
                                 <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{val.title}</h5>
-                                <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">{val.description}</p>
-                                <a href="#" className="inline-flex font-medium items-center text-blue-600 hover:underline">
-                                    {val.tag}
+                                  
+                                <p className="mb-3 font-normal text-white-500 dark:text-white">{val.description}</p>
 
-                                </a>
+                                <p className="mb-3 font-normal text-gray-500 dark:text-white">{val.tag}</p>
+
+                                </div>
+                                <div className="icon flex gap-5 self-end">
+                                    <i className="text-teal-950 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
+                                    <i className="text-blue-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
+                                </div>
                             </div>
 
-                            <div className="icon flex gap-5 self-end">
-                                <i className="text-yellow-600 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
-                                <i className="text-red-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
-                            </div>
-                        </div>
 
-                    )
-                })
-            }
+                            // // CARD 2 //
+
+                            // <div className="flip-card-inner">
+                            //     <div className="flip-card-front">
+                            //         <p className="title">FLIP CARD</p>
+                            //         <p>Hover Me</p>
+                            //     </div>
+                            //     <div className="flip-card-back">
+                            //         <p className="tip">{val.title}</p>
+                            //         <p className="second-text">{val.description}</p>
+                            //         <p className="second-text">{val.tag}</p>
+                            //     </div>
+                            // </div>
+
+
+
+                        )
+                    })
+                }
+            </div>
+
 
         </div>
 

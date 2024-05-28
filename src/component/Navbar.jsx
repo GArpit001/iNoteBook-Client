@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom"
 import { myContext } from '../context/context'
 import "../App.css"
 import PRO from "../assets/img/LOG.png"
+import LOGO from "../assets/img/iNoteBook LOGO.jpg"
+
 
 const Navbar = () => {
 
@@ -170,7 +172,7 @@ const Navbar = () => {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
                     <div className='text-white navLogo'>
-                    <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
+                    <img src={LOGO} className="h-8" alt="Flowbite Logo" />
                     </div>
 
                     <ul className=" navLi flex flex-row gap-8 font-medium  rounded-lg ">
