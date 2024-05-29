@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const userDetail = useContext(myContext)
     const { users, getUserDetail, name } = userDetail
-    console.log(users)
+    // console.log(users)
 
 
 
@@ -192,11 +192,11 @@ const Navbar = () => {
                         {
 
                             localStorage.getItem('token') ?
-                                <div className="relative flex ">
+                                <div className="relative flex  ">
                                     <button className='bg-blue-500 text-white mx-3 px-[14px] py-[7px] rounded-3xl showBtn' onClick={() => { openBox() }}>
                                         {name.slice(0, 1).toUpperCase() || users.fname.slice(0, 1).toUpperCase()}
                                     </button>
-                                    <div className=" mainProfile absolute right-6 top-[52px]  modal w-[350px] bg-slate-400 rounded-2xl ">
+                                    <div className=" mainProfile absolute right-6 top-[52px]  modal   bg-slate-400 rounded-2xl ">
                                         <div className='content'>
 
 

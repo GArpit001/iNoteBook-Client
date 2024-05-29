@@ -154,7 +154,7 @@ const NoteCards = (props) => {
 
                             // CARD 1 //
 
-                            <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700 flex max-w-[350px] card red">
+                            <div key={val._id} className="  p-6 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700 flex max-w-[350px] card red">
                                 <div className="note">
 
                                 <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{val.title}</h5>
@@ -165,8 +165,8 @@ const NoteCards = (props) => {
 
                                 </div>
                                 <div className="icon flex gap-5 self-end">
-                                    <i className="text-teal-950 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
-                                    <i className="text-blue-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
+                                    <i className="text-yellow-300 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
+                                    <i className="text-red-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
                                 </div>
                             </div>
 

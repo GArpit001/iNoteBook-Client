@@ -10,9 +10,10 @@
   background-color: lightblue;
 }
 
-
 .mainProfile {
   display: none;
+  width: 320px;
+  max-height: 470px;
 }
 
 .showBtn:focus + .mainProfile {
@@ -21,21 +22,6 @@
 
 .mainProfile:hover {
   display: block;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -56,21 +42,62 @@
   line-height: 1.75rem /* 28px */;
 }
 
+#formin {
+  background-color: #f3f4f6;
+}
 
+.image{
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 600px) {
   .fullPage {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 1.75rem/* 28px */;
+    padding-bottom: 1.75rem /* 28px */;
   }
 
-  .loginForm, .signuoForm {
+  .loginForm,
+  .signuoForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #formin {
+    background: url(./assets/img/LOG.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    background-size: 300px;
+  }
+
+  #formup {
+    background: url(./assets/img/sign.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+    background-size: 500px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    background: transparent;
+  }
+
+  input[type="email"]::placeholder {
+    color: black;
+  }
+  input[type="password"]::placeholder {
+    color: black;
+  }
+
+  .mainProfile {
+    width: 270px;
+    max-height: 470px;
   }
 
   .about {
@@ -82,33 +109,36 @@
     font-size: 1.15rem;
     line-height: 1.65rem;
   }
-  .no{
+  .no {
     justify-content: center;
   }
-  .navLogo{
+  .navLogo {
     display: none;
   }
-  .navLi{
+  .navLi {
     width: 100%;
   }
-  .navButton{
+  .navButton {
     display: flex;
     justify-content: flex-end;
     width: 100%;
- }
-}
+  }
 
+  .image {
+    display: none;
+  }
+}
 
 /* CARD CSS  1 */
 
-.cards {
+/* .cards {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   gap: 15px;
 }
 
 .cards .red {
-  background-color: #f43f5e;
+  background-color: grey;
 }
 
 .cards .blue {
@@ -125,7 +155,6 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 100px;
   width: 250px;
   border-radius: 10px;
   color: white;
@@ -139,7 +168,7 @@
 }
 
 .cards .card p.second-text {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 .cards .card:hover {
@@ -149,13 +178,11 @@
 .cards:hover > .card:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9, 0.9);
-}
-
-
+} */
 
 /* CARD CSS 2 */
 
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   width: 190px;
   height: 254px;
@@ -183,8 +210,9 @@
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
-  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -198,15 +226,24 @@
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-     rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+  background: linear-gradient(
+    120deg,
+    bisque 60%,
+    rgb(255, 231, 222) 88%,
+    rgb(255, 211, 195) 40%,
+    rgba(255, 127, 80, 0.603) 48%
+  );
   color: coral;
 }
 
 .flip-card-back {
-  background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-     bisque 40%, rgb(255, 185, 160) 78%);
+  background: linear-gradient(
+    120deg,
+    rgb(255, 174, 145) 30%,
+    coral 88%,
+    bisque 40%,
+    rgb(255, 185, 160) 78%
+  );
   color: white;
   transform: rotateY(180deg);
-}
-
+} */

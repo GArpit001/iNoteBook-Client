@@ -86,17 +86,17 @@ const Login = (props) => {
 
 
 
-                        <form className=" w-[80%]  border border-slate-300 p-[2rem] py-[3rem] dark:bg-gray-100 rounded-md" title='LOGIN FORM' onSubmit={handleLogin}>
+                        <form id="formin" className=" w-[80%]  border border-slate-300 p-[2rem] py-[3rem]  rounded-md" title='LOGIN FORM' onSubmit={handleLogin}>
 
-                            <h1 className=' logHead  font-medium text-white-900 light:text-black mb-5 text-center underline'>
+                            <h1 className=' logHead  font-medium text-blue-700 light:text-black mb-5 text-center underline'>
                                 Login to Continue to iNotebook
                             </h1>
                             <div className="mb-5">
                                 <label htmlFor="email" className="block mb-2 text-xl font-medium text-white-900 light:text-black">Your email</label>
-                                <input type="email" id="email" name='email' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="abc@gmail.com" value={login.email} onChange={onChange} required />
+                                <input type="email" id="email" name='email' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-400  dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="abc@gmail.com" value={login.email} onChange={onChange} required />
                             </div>
                             <div className="mb-5">
-                                <label htmlFor="password" className="block mb-2 text-xl font-medium text-white-900 light:text-black">Your password</label>
+                                <label htmlFor="password" className="block mb-2 text-xl font-medium text-white-900 light:text-black">Your Password</label>
                                 <input type="password" id="password" name='password' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Your Password" value={login.password} onChange={onChange} required />
                             </div>
 

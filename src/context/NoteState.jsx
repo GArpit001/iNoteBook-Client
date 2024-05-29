@@ -14,7 +14,6 @@ const NoteState = (props) => {
 
   // const host =  "http://localhost:2110"
   const host =  "https://inotebook-backend-8r9c.onrender.com"
-
   const [notes, setNotes] = useState([]);
   const [users, setUser] = useState({ email: "", fname: "" })
 
@@ -23,6 +22,7 @@ const NoteState = (props) => {
 
   // // Get User //
 
+  
   const getUserDetail = async () => {
     const responce = await fetch(`${host}/api/auth/getuser`, {
       method: "POST",
