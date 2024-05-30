@@ -19,14 +19,14 @@ const Footer = () => {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                          <a href="https://github.com/PRCreation001/" className="hover:underline ">Github</a>
                       </li>
-                      <li className="mb-4">
+                      {/* <li className="mb-4">
                           <a href="https://discord.gg/" className="hover:underline">Discord</a>
-                      </li>
+                      </li> */}
 
                       <li className="mb-4">
-                          <a href="https://instagram.com/" className="hover:underline">Instagram</a>
+                          <a href="https://www.instagram.com/princeverma2754/" className="hover:underline">Instagram</a>
                       </li>
                   </ul>
               </div>
@@ -34,10 +34,10 @@ const Footer = () => {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="#" className="hover:underline">Privacy Policy</a>
+                          <a href="https://www.privacypolicytemplate.net/live.php?token=ZbQmWrUeCaA2wlkifvPpKQcZxpQnxNMr" className="hover:underline">Privacy Policy</a>
                       </li>
                       <li>
-                          <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                          <a href="https://www.termsandconditionsgenerator.com/live.php?token=XONivBU3X5kiOeUtElgEN9O1pG89VIug" className="hover:underline">Terms &amp; Conditions</a>
                       </li>
                   </ul>
               </div>
@@ -54,11 +54,10 @@ const Footer = () => {
 
           
           <div className="flex mt-4 sm:justify-center sm:mt-0 justify-center">
-              <a href="https://www.google.com" target='_blank' className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fillRule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clipRule="evenodd"/>
-                    </svg>
-                  <span className="sr-only">Facebook page</span>
+              <a href="https://www.instagram.com/princeverma2754/" target='_blank' className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+               <svg xmlns="http://www.w3.org/2000/svg" className='w-4 h-4' xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3364.3 3364.7" id="Instagram"><defs><path id="a" d="M853.2 3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5-71.8-71.8-116.4-140.1-153.5-235.9-28.2-72.3-61.5-181-70.6-381.1-10-216.3-12-281.2-12-829.2s2.2-612.8 11.9-829.3C21 653.1 54.5 544.6 82.5 472.1 119.8 376.3 164.3 308 236 236c71.8-71.8 140.1-116.4 236-153.5C544.3 54.3 653 21 853.1 11.9 1069.5 2 1134.5 0 1682.3 0c548 0 612.8 2.2 829.3 11.9 200.1 9.1 308.6 42.6 381.1 70.6 95.8 37.1 164.1 81.7 236 153.5 71.8 71.8 116.2 140.2 153.5 236 28.2 72.3 61.5 181 70.6 381.1 9.9 216.5 11.9 281.3 11.9 829.3 0 547.8-2 612.8-11.9 829.3-9.1 200.1-42.6 308.8-70.6 381.1-37.3 95.8-81.7 164.1-153.5 235.9-71.8 71.8-140.2 116.2-236 153.5-72.3 28.2-181 61.5-381.1 70.6-216.3 9.9-281.3 11.9-829.3 11.9-547.8 0-612.8-1.9-829.1-11.9" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"></use></clipPath><g clip-path="url(#b)" fill="#000000" class="color000000 svgShape"><defs><path id="c" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="d"><use overflow="visible" xlink:href="#c"></use></clipPath><g clip-path="url(#d)" fill="#000000" class="color000000 svgShape"><defs><path id="e" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="f"><use overflow="visible" xlink:href="#e"></use></clipPath><path fill="#647075" d="M-5520.6-5520.5H8885.2V8885.3H-5520.6z" clip-path="url(#f)" class="color204bff svgShape"></path><defs><path id="g" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="h"><use overflow="visible" xlink:href="#g"></use></clipPath><g clip-path="url(#h)" fill="#000000" class="color000000 svgShape"><defs><path id="i" d="M-3347.1-3157.1H8892.2V7619.1H-3347.1z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="k" d="M-3347.1-3157.1H8892.2V7619.1H-3347.1z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="m" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="j"><use overflow="visible" xlink:href="#i"></use></clipPath><clipPath id="l" clip-path="url(#j)"><use overflow="visible" xlink:href="#k"></use></clipPath><clipPath id="n" clip-path="url(#l)"><use overflow="visible" xlink:href="#m"></use></clipPath><g clip-path="url(#n)" fill="#000000" class="color000000 svgShape"><defs><path id="o" d="M-3347.1-3157.1H8892.2V7619.1H-3347.1z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="q" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="p"><use overflow="visible" xlink:href="#o"></use></clipPath><clipPath id="r" clip-path="url(#p)"><use overflow="visible" xlink:href="#q"></use></clipPath><g clip-path="url(#r)" fill="#000000" class="color000000 svgShape"><defs><path id="s" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="t"><use overflow="visible" xlink:href="#s"></use></clipPath><g clip-path="url(#t)" fill="#000000" class="color000000 svgShape"><defs><path id="u" d="M-3150.1-399.7h8047v8047h-8047z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="w" d="M-3150.1-399.7h8047v8047h-8047z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="y" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="v"><use overflow="visible" xlink:href="#u"></use></clipPath><clipPath id="x" clip-path="url(#v)"><use overflow="visible" xlink:href="#w"></use></clipPath><clipPath id="z" clip-path="url(#x)"><use overflow="visible" xlink:href="#y"></use></clipPath><g clip-path="url(#z)" fill="#000000" class="color000000 svgShape"><defs><path id="A" d="M-3150.1-399.7h8047v8047h-8047z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="C" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="B"><use overflow="visible" xlink:href="#A"></use></clipPath><clipPath id="D" clip-path="url(#B)"><use overflow="visible" xlink:href="#C"></use></clipPath><g clip-path="url(#D)" fill="#000000" class="color000000 svgShape"><defs><path id="E" d="M-2024.7 922.7h6499.5v6499.5h-6499.5z" fill="#000000" class="color000000 svgShape"></path></defs><defs><path id="G" d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z" fill="#000000" class="color000000 svgShape"></path></defs><clipPath id="F"><use overflow="visible" xlink:href="#E"></use></clipPath></g></g></g></g></g></g></g></g><path fill="#ffffff" d="M1269.7 1682.4c0-227.9 184.7-412.7 412.6-412.7s412.7 184.8 412.7 412.7-184.8 412.7-412.7 412.7-412.6-184.8-412.6-412.7m-223.1 0c0 351.1 284.6 635.7 635.7 635.7s635.7-284.6 635.7-635.7-284.6-635.7-635.7-635.7-635.7 284.6-635.7 635.7m1148-660.9c0 82 66.5 148.6 148.6 148.6 82 0 148.6-66.6 148.6-148.6S2425.3 873 2343.2 873s-148.6 66.5-148.6 148.5M1182.1 2690.1c-120.7-5.5-186.3-25.6-229.9-42.6-57.8-22.5-99-49.3-142.4-92.6-43.3-43.3-70.2-84.5-92.6-142.3-17-43.6-37.1-109.2-42.6-229.9-6-130.5-7.2-169.7-7.2-500.3s1.3-369.7 7.2-500.3c5.5-120.7 25.7-186.2 42.6-229.9 22.5-57.8 49.3-99 92.6-142.4 43.3-43.3 84.5-70.2 142.4-92.6 43.6-17 109.2-37.1 229.9-42.6 130.5-6 169.7-7.2 500.2-7.2 330.6 0 369.7 1.3 500.3 7.2 120.7 5.5 186.2 25.7 229.9 42.6 57.8 22.4 99 49.3 142.4 92.6 43.3 43.3 70.1 84.6 92.6 142.4 17 43.6 37.1 109.2 42.6 229.9 6 130.6 7.2 169.7 7.2 500.3 0 330.5-1.2 369.7-7.2 500.3-5.5 120.7-25.7 186.3-42.6 229.9-22.5 57.8-49.3 99-92.6 142.3s-84.6 70.1-142.4 92.6c-43.6 17-109.2 37.1-229.9 42.6-130.5 6-169.7 7.2-500.3 7.2-330.5 0-369.7-1.2-500.2-7.2m-10.2-2238.2c-131.8 6-221.8 26.9-300.5 57.5C790 541 721 583.4 652.1 652.2 583.3 721 540.9 790 509.3 871.5c-30.6 78.7-51.5 168.7-57.5 300.5-6.1 132-7.5 174.2-7.5 510.4s1.4 378.4 7.5 510.4c6 131.8 26.9 221.8 57.5 300.5 31.6 81.4 73.9 150.5 142.8 219.3 68.8 68.8 137.8 111.1 219.3 142.8 78.8 30.6 168.7 51.5 300.5 57.5 132.1 6 174.2 7.5 510.4 7.5 336.3 0 378.4-1.4 510.4-7.5 131.8-6 221.8-26.9 300.5-57.5 81.4-31.7 150.4-74 219.3-142.8 68.8-68.8 111.1-137.9 142.8-219.3 30.6-78.7 51.6-168.7 57.5-300.5 6-132.1 7.4-174.2 7.4-510.4s-1.4-378.4-7.4-510.4c-6-131.8-26.9-221.8-57.5-300.5-31.7-81.4-74-150.4-142.8-219.3-68.8-68.8-137.9-111.2-219.2-142.8-78.8-30.6-168.8-51.6-300.5-57.5-132-6-174.2-7.5-510.4-7.5-336.3 0-378.4 1.4-510.5 7.5" class="colorffffff svgShape"></path></svg>
+
+                  <span className="sr-only">Instagram page</span>
               </a>
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                   <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
@@ -72,7 +71,7 @@ const Footer = () => {
                 </svg>
                   <span className="sr-only">Twitter page</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+              <a href="https://github.com/PRCreation001/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                   <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clipRule="evenodd"/>
                   </svg>

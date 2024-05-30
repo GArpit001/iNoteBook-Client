@@ -157,11 +157,11 @@ const NoteCards = (props) => {
                             <div key={val._id} className="  p-6 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700 flex max-w-[350px] card red">
                                 <div className="note">
 
-                                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{val.title}</h5>
+                                <h5 className="mb-2 text-2xl font-semibold tracking-tight  text-black">{val.title}</h5>
                                   
-                                <p className="mb-3 font-normal text-white-500 dark:text-white">{val.description}</p>
+                                <p className="mb-3 font-normal text-black dark:text-black">{val.description}</p>
 
-                                <p className="mb-3 font-normal text-gray-500 dark:text-white">{val.tag}</p>
+                                <p className="mb-3 font-normal text-black dark:text-black">{val.tag}</p>
 
                                 </div>
                                 <div className="icon flex gap-5 self-end">
