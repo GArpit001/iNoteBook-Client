@@ -125,7 +125,7 @@ const NoteCards = (props) => {
                 notes.length === 0 && (<div>NO Notes here </div>)
             }
 
-            <div className="cards">
+            <div className="cards" title='Your Notes is Here'>
                 {/* <div className="flip-card"> */}
 
                 {
@@ -133,42 +133,44 @@ const NoteCards = (props) => {
                         return (
 
 
-                            // <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex max-w-[350px]">
-                            //     <div className="note">
+                            <div key={val._id} className=" justify-between p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-blue-600 dark:border-gray-700 flex max-w-[350px]">
+                                <div className="note">
 
 
-                            //         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{val.title}</h5>
-                            //         <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">{val.description}</p>
-                            //         <a href="#" className="inline-flex font-medium items-center text-blue-600 hover:underline">
-                            //             {val.tag}
+                                    <h5 className="mb-2 text-2xl font-semibold tracking-tight  text-black" title='Title' >{val.title}</h5>
 
-                            //         </a>
-                            //     </div>
+                                    <p className="mb-3 font-normal text-white" title='Description'>{val.description}</p>
 
-                            //     <div className="icon flex gap-5 self-end">
-                            //         <i className="text-yellow-600 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
-                            //         <i className="text-red-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
-                            //     </div>
-                            // </div>
+                                    <p className="inline-flex text-white font-medium items-center  hover:underline" title='Tag'>
+                                        {val.tag}
+
+                                    </p>
+                                </div>
+
+                                <div className="icon flex gap-5 self-end">
+                                    <i className="text-yellow-300 cursor-pointer fa-solid fa-pen-to-square" title='Update_Note' onClick={() => { upDateNote(val) }}></i>
+                                    <i className="text-red-600 cursor-pointer fa-solid fa-trash" title='Delete_Note' onClick={() => { deleteNotes(val._id) }} ></i>
+                                </div>
+                            </div>
 
 
                             // CARD 1 //
 
-                            <div key={val._id} className="  p-6 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700 flex max-w-[350px] card red">
-                                <div className="note">
+                            // <div key={val._id} className="  p-6 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700 flex max-w-[350px] card red">
+                            //     <div className="note">
 
-                                <h5 className="mb-2 text-2xl font-semibold tracking-tight  text-black">{val.title}</h5>
-                                  
-                                <p className="mb-3 font-normal text-black dark:text-black">{val.description}</p>
+                            //     <h5 className="mb-2 text-3xl font-semibold tracking-tight  ">{val.title}</h5>
 
-                                <p className="mb-3 font-normal text-black dark:text-black">{val.tag}</p>
+                            //     <p className="mb-3 font-medium text-xl">{val.description}</p>
 
-                                </div>
-                                <div className="icon flex gap-5 self-end">
-                                    <i className="text-yellow-300 cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
-                                    <i className="text-red-600 cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
-                                </div>
-                            </div>
+                            //     <p className="mb-3 font-medium text-xl">{val.tag}</p>
+
+                            //     </div>
+                            //     <div className="icon flex gap-5 self-end">
+                            //         <i className="text-yellow-300 text-xl cursor-pointer fa-solid fa-pen-to-square" onClick={() => { upDateNote(val) }}></i>
+                            //         <i className="text-red-600 text-2xl cursor-pointer fa-solid fa-trash" onClick={() => { deleteNotes(val._id) }} ></i>
+                            //     </div>
+                            // </div>
 
 
                             // // CARD 2 //
