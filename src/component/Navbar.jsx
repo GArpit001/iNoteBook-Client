@@ -168,7 +168,7 @@ const Navbar = () => {
 
 
         <>
-            <nav className=" border-gray-200 light:bg-gray-900 dark:bg-gray-900">
+            <nav className=" border-gray-200 bg-gray-900 dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
                     <div className='text-white navLogo'>
