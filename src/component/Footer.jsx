@@ -48,7 +48,7 @@ const Footer = () => {
           <div className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://instagram.com/" target='_blank' className="hover:underline">iNoteBook</a>. All Rights Reserved.
           </div>
 
-          <div className="text-sm text-white sm:text-center light:text-gray-400">
+          <div className="text-sm  sm:text-center text-gray-400">
             Powered By Arpit Verma
           </div>
 
