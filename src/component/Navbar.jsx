@@ -172,7 +172,7 @@ const Navbar = () => {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
                     <div className='text-white navLogo'>
-                    <img src={LOGO} className="h-8" alt="Flowbite Logo" />
+                        <img src={LOGO} className="h-8" alt="Flowbite Logo" />
                     </div>
 
                     <ul className=" navLi flex flex-row gap-8 font-medium  rounded-lg ">
@@ -183,7 +183,7 @@ const Navbar = () => {
                             <Link to="/about" className={`block py-2 px-3  ${location.pathname === "/about" ? "text-blue-700" : "text-white"} rounded md:bg-transparent  md:p-0 `}>About</Link>
                         </li>
                         <li>
-                            <Link to="/service" className={`block py-2 px-3  ${location.pathname === "/service" ? "text-blue-700" : "text-white"} rounded md:bg-transparent md:p-0 md:light:text-blue-500`}>Services</Link>
+                            <Link to="/service" className={`block py-2 px-3  ${location.pathname === "/service" ? "text-blue-700" : "text-white"} rounded md:bg-transparent md:p-0 `}>Services</Link>
                         </li>
                     </ul>
 
