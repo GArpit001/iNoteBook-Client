@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 flex items-center">
                   <img src={LOGO} className="h-16 me-3 rounded-full" alt="FlowBite Logo" />
-                  <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Cloud App</span>
+                  <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Cloud App</span>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
              
