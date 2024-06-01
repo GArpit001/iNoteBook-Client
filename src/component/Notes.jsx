@@ -7,7 +7,7 @@ const Notes = (props) => {
 
 
     return (
-        <div className="notes max-w-6xl my-7 mx-auto">
+        <div className="notes max-w-6xl mt-7 mx-auto">
 
             <h1 className='text-[25px] mb-5 font-bold text-blue-700' >Your Note</h1>
 

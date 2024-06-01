@@ -14,7 +14,7 @@ const About = () => {
 
         <h4 className="text-2xl  text-center mb-10">
 
-          It is the responsibility of the user to ensure that this User ID and Password information is not leaked from the user to the friends or family members under any circumstances. The iNotebook Creater will not be able to provide any guarantee in this regard.
+          It is the responsibility of the user to ensure that this Email ID and Password information is not leaked from the user to the friends or family members under any circumstances. The iNotebook Creater (Arpit Verma) will not be able to provide any guarantee in this regard.
 
         </h4>
         <p className="text-lg mb-5">

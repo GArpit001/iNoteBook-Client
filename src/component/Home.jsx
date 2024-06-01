@@ -9,7 +9,7 @@ const Home = (props) => {
 
     return (
         <div className="main  " >
-            <div className="container max-w-6xl mx-auto mt-[2rem]  ">
+            <div className="container max-w-6xl mx-auto pt-[2rem]  ">
                 <h1 className='text-[25px]  font-bold mb-4' >Add a Note</h1>
                 <AddNote showAlert={props.showAlert} />
             </div>

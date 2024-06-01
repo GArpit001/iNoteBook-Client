@@ -28,7 +28,15 @@ const Navbar = () => {
 
 
     const logOut = () => {
-        localStorage.removeItem("token")
+
+        // console.log("Are You Sure to Logout.")
+        let out = confirm("Are You Sure to Logout.")
+
+        if (out) {
+            localStorage.removeItem("token")
+            // console.log("OUT")
+        }
+
     }
 
     useEffect(() => {

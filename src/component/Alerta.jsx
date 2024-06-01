@@ -2,10 +2,10 @@ import React from "react";
 
 const Alert = (props) => {
   return (
-    <div className={`w-full  flex justify-end mt-[10px] h-16`}>
+    <div className={`w-full  absolute z-10 flex justify-end mt-[10px] h-16 `}>
       {
         props.alert && (<div id="alert-border-2"
-          className="flex w-[30%] items-center  p-4  text-red-800 border-t-4 border-red-300 bg-red-50 dark:text-red-400 dark:bg-gray-800 dark:border-red-800"
+          className="flex alert items-center  p-4  text-red-800 border-t-4 border-red-300 bg-red-50 dark:text-red-400 dark:bg-gray-800 dark:border-red-800"
           role="alert"
         >
 

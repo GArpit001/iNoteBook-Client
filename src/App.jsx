@@ -41,9 +41,9 @@ function App() {
 
           <Navbar />
 
-          <Alerta alert={alert} />
 
-          <div className="pt-5  ">
+          <Alerta alert={alert} />
+          <div className="bg-slate-50">
 
 
             <Routes>
