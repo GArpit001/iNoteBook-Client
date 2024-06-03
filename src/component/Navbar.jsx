@@ -185,7 +185,10 @@ const Navbar = () => {
 
                     <ul className=" navLi flex flex-row gap-8 font-medium  rounded-lg ">
                         <li>
-                            <Link to="/" className={`block py-2 px-3  ${location.pathname === "/" ? "text-blue-700" : "text-white"} rounded md:bg-transparent  md:p-0 `} aria-current="page">Home</Link>
+                            <Link to="/home" className={`block py-2 px-3  ${location.pathname === "/home" ? "text-blue-700" : "text-white"} rounded md:bg-transparent  md:p-0 `} aria-current="page">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/" className={`block py-2 px-3  ${location.pathname === "/" ? "text-blue-700" : "text-white"} rounded md:bg-transparent  md:p-0 `} aria-current="page">Base</Link>
                         </li>
                         <li>
                             <Link to="/about" className={`block py-2 px-3  ${location.pathname === "/about" ? "text-blue-700" : "text-white"} rounded md:bg-transparent  md:p-0 `}>About</Link>

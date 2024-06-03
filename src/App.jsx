@@ -9,6 +9,7 @@ import NoteState from './context/NoteState.jsx'
 import SignUp from './component/SignUp.jsx'
 import Login from './component/Login.jsx'
 import Footer from './component/Footer.jsx'
+import Base from "./component/Base.jsx"
 
 function App() {
 
@@ -49,8 +50,8 @@ function App() {
             <Routes>
 
               <Route path="/about" element={<About />} />
-              <Route path="/" element={<Home showAlert={showAlert} />} />
-              {/* <Route path="/" element={<Home showAlert={showAlert} />} /> */}
+              <Route path="/home" element={<Home showAlert={showAlert} />} />
+              <Route path="/" element={<Base showAlert={showAlert} />} />     
               <Route path="/service" element={<Service />} />
 
 
