@@ -72,7 +72,27 @@
   width: 22rem;
 }
 
+.out{
+  right: -3.5rem;
+  top: 3.3rem;
+}
+
+.cont{
+  padding: 1.5rem;
+}
+
 @media (max-width: 600px) {
+
+  .out{
+    right: -1rem;
+    top: -5.7rem;
+
+  }
+
+  .cont{
+    padding: 0.5rem;
+  }
+
   .fullPage {
     display: flex;
     flex-direction: column;
