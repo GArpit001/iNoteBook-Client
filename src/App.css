@@ -49,6 +49,10 @@
   display: flex;
 }
 
+.navLi{
+  display: flex;
+}
+
 .about {
   margin: 0rem 4rem 4rem 4rem;
   padding: 3rem;
@@ -81,6 +85,10 @@
   padding: 1.5rem;
 }
 
+.navLogo2 {
+  display: none;
+}
+
 @media (max-width: 600px) {
 
   .out{
@@ -91,6 +99,11 @@
 
   .cont{
     padding: 0.5rem;
+  }
+
+  .phone{
+    width: 100%;
+    justify-content: space-between;
   }
 
   .fullPage {
@@ -155,8 +168,18 @@
   .navLogo {
     display: none;
   }
+
+  .navLogo2 {
+    display: block;
+  }
+
+
+
+  
+
   .navLi {
-    width: 100%;
+    width: 100%; 
+    display: none;
   }
   .navButton {
     display: flex;

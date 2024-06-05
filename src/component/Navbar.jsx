@@ -14,7 +14,7 @@ const Navbar = () => {
     const { users, getUserDetail, name } = userDetail
     // console.log(users)
 
-    const [show , setShow] = useState(false)
+    const [show, setShow] = useState(false)
 
 
 
@@ -45,7 +45,7 @@ const Navbar = () => {
 
     // }
 
-    const logout =()=>{
+    const logout = () => {
         setShow(true)
     }
 
@@ -54,7 +54,7 @@ const Navbar = () => {
         getUserDetail()
     }, [])
 
-   
+
 
 
 
@@ -86,7 +86,7 @@ const Navbar = () => {
                         <img src={LOGO} className="h-8" alt="Flowbite Logo" />
                     </div>
 
-                    <ul className=" navLi flex flex-row gap-8 font-medium  rounded-lg ">
+                    <ul className=" navLi  flex-row gap-8 font-medium  rounded-lg ">
                         <li>
                             <Link to="/" className={`block py-2 px-3  ${location.pathname === "/" ? "text-blue-700" : "text-white"} rounded md:bg-transparent  md:p-0 `} aria-current="page">Home</Link>
                         </li>
@@ -103,7 +103,12 @@ const Navbar = () => {
                         {
 
                             localStorage.getItem('token') ?
-                                <div className="relative flex  ">
+                                <div className="relative flex phone ">
+                                    <div className='text-white navLogo2'>
+                                        <img src={LOGO} className="h-8" alt="Flowbite Logo" />
+                                    </div>
+                                    <div>
+
                                     <button className='bg-blue-500 text-white mx-3 px-[14px] py-[7px] rounded-3xl showBtn' onClick={() => { openBox() }}>
                                         {name.slice(0, 1).toUpperCase() || users.fname.slice(0, 1).toUpperCase()}
                                     </button>
@@ -150,7 +155,10 @@ const Navbar = () => {
                                     <button className='bg-blue-500 showBtn text-white mx-2 px-[12px] py-[6px] rounded-lg' onClick={logout} role='button' >LOGOUT </button>
 
 
-                                    {show ? <Box show={show} setShow={setShow} /> : "" }
+                                    {show ? <Box show={show} setShow={setShow} /> : ""}
+
+                                    </div>
+
 
 
 
